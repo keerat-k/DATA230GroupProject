@@ -1,0 +1,35 @@
+Time limitation: 10 minutes presentation; 4 minutes Q&A; I will stop the presentation at 10 minutes.
+
+Each group must submit a project repository link (for example, GitHub), and the link for the Dashboard or Dashboard file.
+
+Mid-presentation Requirement:
+
+Dataset introduction & motivation:
+* Dataset source, size, and features.
+* Why this dataset was chosen and its relevance to project goals.
+* Dataset complexity (messiness, preprocessing needs, richness for analysis).
+
+Data cleaning/processing:
+* Handling of missing values, outliers, transformations, merging, etc.
+* Any challenges faced so far
+
+Exploratory data analysis (EDA):
+* At least 6 meaningful visualizations.
+* Visualizations must connect to the project's main question.
+* Must present decistions/conclusions from EDA (e.g., Lec4, Lec5 class demo).
+
+Preliminary ML direction:
+* Proposed ML task (classification, regression, clustering).
+* Justification based on EDA insights (e.g., categorical imbalance → classification with resampling).
+* No results required yet.
+
+Dashboard Requirements
+* Each group presents one dashboard created by one student.
+* Dashboard may use any visualization tools introduced up to that point
+
+Important rule:
+* Your presentation should focus on: Key EDA decisions, Insights from the dashboards, Interpretation of the visualizations; Do not spend time explaining software operations or code details
+* Select only the most important visuals that best explain your decisions; Focus on key findings, not the number of charts. The instructor will verify the total number of visualizations through your project code.
+* The last slide of your presentation must include evidence of each member's contribution
+
+(Rubric here)
