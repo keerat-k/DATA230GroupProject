@@ -1,0 +1,20 @@
+# Core (cleaning and EDA)
+pandas
+numpy
+matplotlib
+seaborn
+pyarrow
+kagglehub
+
+# Machine learning
+scikit-learn
+xgboost
+shap
+joblib
+
+# Dashboards
+plotly
+streamlit
+dash
+
+# GPU EDA (RAPIDS cuDF) runs in a Colab GPU runtime, where it comes preinstalled; it is not listed here.

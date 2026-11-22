@@ -1,0 +1,93 @@
+{
+  "price_groups": [
+    {
+      "label": "Free",
+      "over": null,
+      "up_to_and_including": 0.0
+    },
+    {
+      "label": "$0.01-5",
+      "over": 0.0,
+      "up_to_and_including": 5.0
+    },
+    {
+      "label": "$5.01-10",
+      "over": 5.0,
+      "up_to_and_including": 10.0
+    },
+    {
+      "label": "$10.01-20",
+      "over": 10.0,
+      "up_to_and_including": 20.0
+    },
+    {
+      "label": "$20.01-40",
+      "over": 20.0,
+      "up_to_and_including": 40.0
+    },
+    {
+      "label": "$40.01-100",
+      "over": 40.0,
+      "up_to_and_including": 100.0
+    },
+    {
+      "label": "Over $100",
+      "over": 100.0,
+      "up_to_and_including": null
+    }
+  ],
+  "publisher_experience": {
+    "rule": "games by the same publisher released before this game, within the cleaned data",
+    "groups": [
+      {
+        "label": "0 earlier games",
+        "min": 0,
+        "max": 0
+      },
+      {
+        "label": "1-4 earlier games",
+        "min": 1,
+        "max": 4
+      },
+      {
+        "label": "5-19 earlier games",
+        "min": 5,
+        "max": 19
+      },
+      {
+        "label": "20+ earlier games",
+        "min": 20,
+        "max": null
+      }
+    ]
+  },
+  "core_genres": {
+    "rule": "game genres with at least 1000 games; content warnings, business models and software excluded",
+    "list": [
+      "Indie",
+      "Casual",
+      "Action",
+      "Adventure",
+      "Simulation",
+      "Strategy",
+      "RPG",
+      "Sports",
+      "Racing",
+      "Massively Multiplayer"
+    ],
+    "games_per_genre": {
+      "Indie": 68697,
+      "Casual": 41822,
+      "Action": 39747,
+      "Adventure": 38655,
+      "Simulation": 20159,
+      "Strategy": 18965,
+      "RPG": 17712,
+      "Sports": 4160,
+      "Racing": 3457,
+      "Massively Multiplayer": 1862
+    }
+  },
+  "success": "success_50k = 1 when the lower bound of Steam's estimated owners is at least 50,000",
+  "snapshot_date": "2026-03-01"
+}
