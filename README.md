@@ -23,7 +23,7 @@ The Plotly Dash app is built by: _TBD_
 - **Size:** 125,855 games × 39 columns raw (40 after fixing the header); 95,787 games after cleaning.
 - **Snapshot:** newest release with sales data is March 1, 2026.
 - **Download:** the cleaning notebook downloads it automatically with `kagglehub`.
-- **Cleaned files** (too large for GitHub): [Google Drive folder](PASTE-DRIVE-LINK-HERE). Small files such as the data dictionary are in [`data/`](data/).
+- **Cleaned files** (too large for GitHub): [Google Drive folder](https://drive.google.com/drive/u/2/folders/1z4WvZC3KNyPUId6esfABMI-pNekhWMl0). Small files such as the data dictionary are in [`data/`](data/).
 
 ## How to reproduce
 
