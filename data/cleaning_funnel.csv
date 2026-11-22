@@ -1,0 +1,7 @@
+step,rows_remaining
+Raw dataset,125855
+Drop duplicate AppIDs,125855
+Drop missing release date,125855
+"Drop no sales data (owners ""0 - 0"")",101276
+Drop non-game software,100177
+Drop released < 6 months before snapshot,95787

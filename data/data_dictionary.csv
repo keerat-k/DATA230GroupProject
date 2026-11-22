@@ -1,0 +1,104 @@
+column,dtype,role,missing_%
+AppID,int64,id,0.0
+Name,object,id,0.0
+release_date,datetime64[ns],id,0.0
+developer,object,id,0.0
+publisher,object,id,0.0
+Price,float64,pre-release feature,0.0
+price_capped,float64,pre-release feature,0.0
+log_price,float64,pre-release feature,0.0
+price_outlier,int64,pre-release feature,0.0
+is_free,int64,pre-release feature,0.0
+Required age,int64,pre-release feature,0.0
+is_mature,int64,pre-release feature,0.0
+Windows,int64,pre-release feature,0.0
+Mac,int64,pre-release feature,0.0
+Linux,int64,pre-release feature,0.0
+n_platforms,int64,pre-release feature,0.0
+n_languages,int64,pre-release feature,0.0
+n_audio_languages,int64,pre-release feature,0.0
+supports_english,int64,pre-release feature,0.0
+Achievements,int64,pre-release feature,0.0
+achievements_capped,int64,pre-release feature,0.0
+achievements_outlier,int64,pre-release feature,0.0
+about_word_count,int64,pre-release feature,0.0
+release_year,int32,pre-release feature,0.0
+release_month,int32,pre-release feature,0.0
+release_dayofweek,int32,pre-release feature,0.0
+is_early_access,int64,pre-release feature,0.0
+self_published,int64,pre-release feature,0.0
+publisher_prior_releases,float64,pre-release feature,0.5
+n_genres,int64,pre-release feature,0.0
+n_categories,int64,pre-release feature,0.0
+has_website,int64,pre-release feature,0.0
+has_support_url,int64,pre-release feature,0.0
+has_support_email,int64,pre-release feature,0.0
+has_press_quotes,int64,pre-release feature,0.0
+has_content_notes,int64,pre-release feature,0.0
+genre_indie,int64,pre-release feature,0.0
+genre_casual,int64,pre-release feature,0.0
+genre_action,int64,pre-release feature,0.0
+genre_adventure,int64,pre-release feature,0.0
+genre_simulation,int64,pre-release feature,0.0
+genre_strategy,int64,pre-release feature,0.0
+genre_rpg,int64,pre-release feature,0.0
+genre_early_access,int64,pre-release feature,0.0
+genre_free_to_play,int64,pre-release feature,0.0
+genre_sports,int64,pre-release feature,0.0
+genre_racing,int64,pre-release feature,0.0
+genre_massively_multiplayer,int64,pre-release feature,0.0
+genre_violent,int64,pre-release feature,0.0
+genre_gore,int64,pre-release feature,0.0
+genre_nudity,int64,pre-release feature,0.0
+genre_sexual_content,int64,pre-release feature,0.0
+cat_single_player,int64,pre-release feature,0.0
+cat_family_sharing,int64,pre-release feature,0.0
+cat_steam_achievements,int64,pre-release feature,0.0
+cat_steam_cloud,int64,pre-release feature,0.0
+cat_full_controller_support,int64,pre-release feature,0.0
+cat_multi_player,int64,pre-release feature,0.0
+cat_partial_controller_support,int64,pre-release feature,0.0
+cat_steam_trading_cards,int64,pre-release feature,0.0
+cat_pvp,int64,pre-release feature,0.0
+cat_co_op,int64,pre-release feature,0.0
+cat_steam_leaderboards,int64,pre-release feature,0.0
+cat_online_pvp,int64,pre-release feature,0.0
+cat_remote_play_together,int64,pre-release feature,0.0
+cat_shared/split_screen,int64,pre-release feature,0.0
+cat_online_co_op,int64,pre-release feature,0.0
+cat_tracked_controller_support,int64,pre-release feature,0.0
+cat_vr_only,int64,pre-release feature,0.0
+cat_shared/split_screen_pvp,int64,pre-release feature,0.0
+cat_stats,int64,pre-release feature,0.0
+cat_shared/split_screen_co_op,int64,pre-release feature,0.0
+cat_custom_volume_controls,int64,pre-release feature,0.0
+cat_playable_without_timed_input,int64,pre-release feature,0.0
+cat_steam_workshop,int64,pre-release feature,0.0
+cat_remote_play_on_tv,int64,pre-release feature,0.0
+cat_cross_platform_multiplayer,int64,pre-release feature,0.0
+owners_low,int64,post-release outcome (do NOT use as model input),0.0
+owners_high,int64,post-release outcome (do NOT use as model input),0.0
+owners_mid,float64,post-release outcome (do NOT use as model input),0.0
+log_owners_low,float64,post-release outcome (do NOT use as model input),0.0
+log_owners_high,float64,post-release outcome (do NOT use as model input),0.0
+Positive,int64,post-release outcome (do NOT use as model input),0.0
+Negative,int64,post-release outcome (do NOT use as model input),0.0
+total_reviews,int64,post-release outcome (do NOT use as model input),0.0
+positive_ratio,float64,post-release outcome (do NOT use as model input),14.7
+log_total_reviews,float64,post-release outcome (do NOT use as model input),0.0
+log_positive,float64,post-release outcome (do NOT use as model input),0.0
+log_negative,float64,post-release outcome (do NOT use as model input),0.0
+Peak CCU,int64,post-release outcome (do NOT use as model input),0.0
+log_peak_ccu,float64,post-release outcome (do NOT use as model input),0.0
+Recommendations,int64,post-release outcome (do NOT use as model input),0.0
+log_recommendations,float64,post-release outcome (do NOT use as model input),0.0
+Average playtime forever,float64,post-release outcome (do NOT use as model input),73.6
+Average playtime two weeks,int64,post-release outcome (do NOT use as model input),0.0
+Median playtime forever,float64,post-release outcome (do NOT use as model input),73.6
+Median playtime two weeks,int64,post-release outcome (do NOT use as model input),0.0
+metacritic_score,float64,post-release outcome (do NOT use as model input),95.6
+Metacritic score,int64,post-release outcome (do NOT use as model input),0.0
+Discount,int64,post-release outcome (do NOT use as model input),0.0
+DLC count,int64,post-release outcome (do NOT use as model input),0.0
+success_50k,int64,candidate target,0.0
+success_reviews,int64,candidate target,0.0
