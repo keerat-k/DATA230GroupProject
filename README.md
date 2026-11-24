@@ -11,11 +11,10 @@ DATA 230 (Data Intelligence and Visualization), Fall 2026 · Group 6
 | Member | Main contributions |
 |---|---|
 | Keerat Khandpur | Data cleaning and processing, shared definitions, GPU vs CPU comparison, Streamlit app, repository |
-| Rachel Huang | Exploratory data analysis, GPU-accelerated EDA (RAPIDS) |
+| Rachel Huang | Exploratory data analysis, GPU-accelerated EDA (RAPIDS), Plotly Dash app |
 | Chinmayi Bolisetty | Dataset introduction, machine learning model and results |
 | Calvin Truong | Tableau dashboard, slide deck, report setup |
 
-The Plotly Dash app is built by: _TBD_
 
 ## Data
 
